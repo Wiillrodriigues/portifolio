@@ -124,3 +124,13 @@
     
 })(jQuery);
 
+
+
+ // Obter o elemento do ano atual
+ var currentYearElement = document.getElementById("currentYear");
+          
+ // Obter o ano atual
+ var currentYear = new Date().getFullYear();
+
+ // Definir o ano atual no elemento
+ currentYearElement.textContent = currentYear;
